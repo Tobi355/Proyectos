@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tobías Blanco | Portfolio</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!-- Fondo -->
+    <div class="background-shapes">
+
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <div class="shape shape3"></div>
+
+    </div>
+    <div class="scroll-decorations"></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                TB
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+                <button id="theme-toggle" class="btn btn-outline-light ms-3">
+                    ☾
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <section id="hero" class="hero d-flex align-items-center">
+        <div class="container">
+
+            <h1 class="hero-title" data-aos="fade-up">
+                <span id="typing-text"></span>
+            </h1>
+
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                Diseñador y Programador Web
+            </p>
+
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+
+                <a class="btn btn-light" href="#projects">
+                    Ver proyectos
+                </a>
+
+                <a class="btn btn-outline-light" href="#contact">
+                    Contacto
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- Sobre mi -->
+    <section id="about" class="about-section">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <!-- Foto -->
+
+                <div class="col-lg-5" data-aos="fade-right">
+
+                    <img src="assets/img/Ejemplo1.png" class="img-fluid about-img" alt="Tobías Blanco">
+
+                </div>
+
+                <!-- Texto -->
+
+                <div class="col-lg-7" data-aos="fade-left">
+
+                    <h2 class="section-title">Sobre mí</h2>
+
+                    <p class="about-text">
+                        Soy estudiante de Diseño y Programación Web apasionado por crear interfaces modernas,
+                        experiencias digitales intuitivas y proyectos web funcionales.
+                    </p>
+
+                    <p class="about-text">
+                        Me interesa combinar diseño y desarrollo para construir productos que no solo funcionen
+                        bien, sino que también se vean bien.
+                    </p>
+
+                    <!-- Skills -->
+
+                    <div class="skills">
+
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Bootstrap</span>
+                        <span class="skill">Git</span>
+                        <span class="skill">Figma</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Proyectos -->
+    <section id="projects" class="projects-section">
+
+        <div class="container">
+
+            <h2 class="section-title text-center" data-aos="fade-up">
+                Proyectos
+            </h2>
+
+            <div class="row">
+
+                <!-- PROYECTO 1 -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+
+                    <div class="project-card">
+
+                        <img src="assets/img/Ejemplo1.png" class="project-img">
+
+                        <div class="project-content">
+
+                            <h3 class="project-title">
+                            Proyecto 1
+                            </h3>
+
+                            <p class="project-description">
+                            Breve descripción del proyecto.
+                            </p>
+
+                            <div class="project-tech">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+
+                            </div>
+
+                            <div class="project-buttons">
+
+                                <button class="btn btn-light btn-sm"
+                                data-bs-toggle="modal"
+                                data-bs-target="#projectModal1">
+                                Ver proyecto
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- PROYECTO 2 -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+
+                    <div class="project-card">
+
+                        <img src="assets/img/Ejemplo1.png" class="project-img">
+
+                        <div class="project-content">
+
+                            <h3 class="project-title">
+                            Proyecto 2
+                            </h3>
+
+                            <p class="project-description">
+                            Breve descripción del proyecto.
+                            </p>
+
+                            <div class="project-tech">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+
+                            </div>
+
+                            <div class="project-buttons">
+
+                                <button class="btn btn-light btn-sm"
+                                data-bs-toggle="modal"
+                                data-bs-target="#projectModal2">
+                                Ver proyecto
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- PROYECTO 3 -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+
+                    <div class="project-card">
+
+                        <img src="assets/img/Ejemplo1.png" class="project-img">
+
+                        <div class="project-content">
+
+                        <h3 class="project-title">
+                        Proyecto 3
+                        </h3>
+
+                        <p class="project-description">
+                        Breve descripción del proyecto.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                        <div class="project-buttons">
+
+                            <button class="btn btn-light btn-sm"
+                            data-bs-toggle="modal"
+                            data-bs-target="#projectModal3">
+                            Ver proyecto
+                            </button>
+
+                        </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- skills -->
+    <section id="skills" class="skills-section">
+
+        <div class="container">
+
+            <h2 class="section-title text-center" data-aos="fade-up">
+                Tecnologías
+            </h2>
+
+            <p class="skills-description text-center" data-aos="fade-up" data-aos-delay="200">
+                Estas son algunas de las tecnologías y herramientas que utilizo para diseñar y desarrollar proyectos web.
+                Mi enfoque está en crear interfaces modernas, funcionales y bien estructuradas combinando diseño y desarrollo.
+            </p>
+
+            <div class="row text-center">
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+
+                    <div class="skill-box">
+
+                        <div class="skill-header">
+
+                            <img src="assets/icons/html.svg" class="skill-icon">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-level">90%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div class="skill-progress" data-width="90%"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+
+                    <div class="skill-box">
+
+                        <div class="skill-header">
+
+                            <img src="assets/icons/html.svg" class="skill-icon">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-level">90%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div class="skill-progress" data-width="90%"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+
+                    <div class="skill-box">
+
+                        <div class="skill-header">
+
+                            <img src="assets/icons/html.svg" class="skill-icon">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-level">90%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div class="skill-progress" data-width="90%"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+
+                    <div class="skill-box">
+
+                        <div class="skill-header">
+
+                            <img src="assets/icons/html.svg" class="skill-icon">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-level">90%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div class="skill-progress" data-width="90%"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+
+                    <div class="skill-box">
+
+                        <div class="skill-header">
+
+                            <img src="assets/icons/html.svg" class="skill-icon">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-level">90%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div class="skill-progress" data-width="90%"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+
+                    <div class="skill-box">
+
+                        <div class="skill-header">
+
+                            <img src="assets/icons/html.svg" class="skill-icon">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-level">90%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div class="skill-progress" data-width="90%"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+
+                    <div class="skill-box">
+
+                        <div class="skill-header">
+
+                            <img src="assets/icons/html.svg" class="skill-icon">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-level">90%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div class="skill-progress" data-width="90%"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+
+                    <div class="skill-box">
+
+                        <div class="skill-header">
+
+                            <img src="assets/icons/html.svg" class="skill-icon">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-level">90%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div class="skill-progress" data-width="90%"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+
+                    <div class="skill-box">
+
+                        <div class="skill-header">
+
+                            <img src="assets/icons/html.svg" class="skill-icon">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-level">90%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div class="skill-progress" data-width="90%"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- contacto -->
+    <section id="contact" class="contact-section">
+
+        <div class="container">
+
+            <h2 class="section-title text-center" data-aos="fade-up">
+                Contacto
+            </h2>
+
+            <p class="contact-description text-center" data-aos="fade-up" data-aos-delay="200">
+                Si te interesa trabajar conmigo o querés hablar sobre algún proyecto,
+                podés contactarme a través de LinkedIn, email o usando el formulario.
+            </p>
+
+            <div class="row">
+
+                <!-- Información de contacto -->
+
+                <div class="col-lg-5" data-aos="fade-right">
+
+                    <div class="contact-info">
+
+                        <h4>Email</h4>
+                        <p>tobias@email.com</p>
+
+                        <h4>LinkedIn</h4>
+                        <p>
+                            <a href="https://linkedin.com" target="_blank">
+                                linkedin.com/in/tobias
+                            </a>
+                        </p>
+
+                        <h4>Ubicación</h4>
+                        <p>Buenos Aires, Argentina</p>
+
+                    </div>
+
+                </div>
+
+                <!-- Formulario -->
+
+                <div class="col-lg-7" data-aos="fade-left">
+
+                    <form class="contact-form">
+
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-light">
+                            Enviar mensaje
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+
+        <div class="container text-center">
+
+            <h3 class="footer-name">
+                Tobías Blanco
+            </h3>
+
+            <p class="footer-role">
+                Web Developer · Diseñador y Programador Web
+            </p>
+
+            <div class="footer-links">
+
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="mailto:tobias@email.com">Email</a>
+
+            </div>
+
+            <p class="footer-copy">
+                © 2026 Tobías Blanco
+            </p>
+
+        </div>
+
+    </footer>
+
+<!-- Modales -->
+
+<!-- Modal proyecto 1 -->
+    <div class="modal fade" id="projectModal1" tabindex="-1">
+
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                    Proyecto 1
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="assets/img/Ejemplo1.png" class="img-fluid mb-3">
+
+                    <p>
+                    Descripción completa del proyecto.
+                    </p>
+
+                    <h6>Tecnologías</h6>
+
+                    <p>
+                    HTML • CSS • JavaScript
+                    </p>
+
+                    <h6>Aprendizaje</h6>
+
+                    <p>
+                    Qué aprendiste con este proyecto.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="#" class="btn btn-light" target="_blank" rel="noopener noreferrer">
+                    Ver demo
+                    </a>
+
+                    <a href="#" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">
+                    Ver código
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- Modal proyecto 2 -->
+    <div class="modal fade" id="projectModal2" tabindex="-1">
+
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                    Proyecto 1
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="assets/img/Ejemplo1.png" class="img-fluid mb-3">
+
+                    <p>
+                    Descripción completa del proyecto.
+                    </p>
+
+                    <h6>Tecnologías</h6>
+
+                    <p>
+                    HTML • CSS • JavaScript
+                    </p>
+
+                    <h6>Aprendizaje</h6>
+
+                    <p>
+                    Qué aprendiste con este proyecto.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="#" class="btn btn-light" target="_blank" rel="noopener noreferrer">
+                    Ver demo
+                    </a>
+
+                    <a href="#" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">
+                    Ver código
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- Modal proyecto 3 -->
+    <div class="modal fade" id="projectModal3" tabindex="-1">
+
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                    Proyecto 1
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="assets/img/Ejemplo1.png" class="img-fluid mb-3">
+
+                    <p>
+                    Descripción completa del proyecto.
+                    </p>
+
+                    <h6>Tecnologías</h6>
+
+                    <p>
+                    HTML • CSS • JavaScript
+                    </p>
+
+                    <h6>Aprendizaje</h6>
+
+                    <p>
+                    Qué aprendiste con este proyecto.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="#" class="btn btn-light" target="_blank" rel="noopener noreferrer">
+                    Ver demo
+                    </a>
+
+                    <a href="#" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">
+                    Ver código
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- JS -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
